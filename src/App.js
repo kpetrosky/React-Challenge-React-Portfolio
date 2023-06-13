@@ -1,12 +1,6 @@
-import './App.css';
-import BucketList from './components/BucketList';
-
-function App() {
-  return (
-    <div className="bucket-app">
-      <BucketList />
-    </div>
-  );
-}
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
+import "./index.css";
+const App = () => <PortfolioContainer />;
 
 export default App;
