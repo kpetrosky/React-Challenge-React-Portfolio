@@ -4,10 +4,10 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      name: "Milk",
+      name: "Daily Distractions",
       description: true,
-      Repo: "",
-      deployed: '',
+      Repo: "https://github.com/AlexWatabe9/DailyDistractions",
+      deployed: 'https://alexwatabe9.github.io/DailyDistractions/',
       src: '',
     },
     {
