@@ -27,11 +27,11 @@ export default function Portfolio() {
       src: '',
     },
     {
-      id: 1,
-      name: "Milk",
+      id: 4,
+      name: "Web APIs Challenge Code Quiz",
       description: true,
-      Repo: "",
-      deployed: '',
+      Repo: "https://github.com/kpetrosky/web-apis-challenge-code-quiz",
+      deployed: 'https://kpetrosky.github.io/web-apis-challenge-code-quiz/',
       src: '',
     },
     {
