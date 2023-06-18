@@ -6,8 +6,41 @@
 --cerise: #e5446dff;
 --coral: #ff8966ff;
 --atomic-tangerine: #ff9474ff;
+--space-cadet: #1b1b3aff;
+--finn: #693668ff;
+--magenta-haze: #a74482ff;
+--brilliant-rose: #f84aa7ff;
+--folly: #ff3562ff
 }
-
-main{
-    height:100vh;
-}
+main {
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #ff9474ff;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #e5446dff;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #ff8966ff;
+  }
+  
+  .div {
+    background-color: #f84aa7ff;
+  }
+  
+  header {
+    color: #e5446dff;
+  }
+  
+  footer {
+    color: #693668ff;
+  }
+  
+  
