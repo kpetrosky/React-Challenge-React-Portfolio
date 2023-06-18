@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <main className='container'>
+    <main className='container contact-container'>
       <div className='row'>
         <div className='col-sm-12'>
           <h1>Contact Page</h1>
