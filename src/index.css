@@ -1,46 +1,60 @@
-:root{
-/* CSS HEX */
---jet: #2a2b2aff;
---dim-gray: #706c61ff;
---cosmic-latte: #f8f4e3ff;
---cerise: #e5446dff;
---coral: #ff8966ff;
---atomic-tangerine: #ff9474ff;
---space-cadet: #1b1b3aff;
---finn: #693668ff;
---magenta-haze: #a74482ff;
---brilliant-rose: #f84aa7ff;
---folly: #ff3562ff
+:root {
+  /* CSS HEX */
+  --jet: #2a2b2aff;
+  --dim-gray: #706c61ff;
+  --cosmic-latte: #f8f4e3ff;
+  --cerise: #e5446dff;
+  --coral: #ff8966ff;
+  --atomic-tangerine: #ff9474ff;
+  --space-cadet: #1b1b3aff;
+  --finn: #693668ff;
+  --magenta-haze: #a74482ff;
+  --brilliant-rose: #f84aa7ff;
+  --folly: #ff3562ff --cool-gray: #8e9aafff;
+  --thistle: #cbc0d3ff;
+  --misty-rose: #efd3d7ff;
+  --pale-purple: #feeafaff;
+  --lavender-web: #dee2ffff;
+  --cherry-blossom-pink: #e8aeb7ff;
+  --uranian-blue: #b8e1ffff;
+  --ice-blue: #a9fff7ff;
+  --light-green: #94fbabff;
+  --cambridge-blue: #82aba1ff;
 }
+
 main {
-    height: 100vh;
-  }
-  
-  .container {
-    background-color: #ff9474ff;
-    padding: 20px;
-  }
-  
-  .title {
-    font-size: 24px;
-    color: #e5446dff;
-  }
-  
-  .subtitle {
-    font-size: 16px;
-    color: #ff8966ff;
-  }
-  
-  .div {
-    background-color: #f84aa7ff;
-  }
-  
-  header {
-    color: #e5446dff;
-  }
-  
-  footer {
-    color: #693668ff;
-  }
-  
-  
+  height: 100vh;
+  background-color:#b8e1ffff;
+}
+
+container {
+  background-color: #ff9474ff;
+  padding: 20px;
+}
+
+title {
+  font-size: 24px;
+  color: #e5446dff;
+  background-color: #1b1b3aff;
+}
+
+h1 {
+  font-size: 16px;
+  color: #82aba1ff;
+}
+
+div {
+  background-color: #e8aeb7ff;
+}
+
+header {
+  color: #e5446dff;
+}
+
+footer {
+  color: #693668ff;
+}
+
+home-container{
+  color: #693668ff;
+}
