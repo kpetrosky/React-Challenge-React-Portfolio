@@ -1,5 +1,7 @@
 import React from 'react';
 
+import project1 from '../../project1.png';
+
 export default function Portfolio() {
   const projects = [
     {
@@ -8,7 +10,7 @@ export default function Portfolio() {
       description: true,
       Repo: "https://github.com/AlexWatabe9/DailyDistractions",
       deployed: 'https://alexwatabe9.github.io/DailyDistractions/',
-      src: "./public/project1.png",
+      src: project1 ,
       backgroundColor: '#e5446dff',
     },
     {
@@ -69,7 +71,7 @@ export default function Portfolio() {
           <div className='col-md-4 col-sm-12' key={project.id}>
             <div className="card" style={{ backgroundColor: project.backgroundColor }}>
               {/* Render project details */}
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={project.src} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">{project.name}</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
