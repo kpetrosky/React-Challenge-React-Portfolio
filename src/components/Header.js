@@ -37,7 +37,7 @@ function Header({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="https://drive.google.com/file/d/1wSlGLB2syHQ5PyPH2I1OldNG-VEV--Jn/view?usp=sharing"
+          href="https://drive.google.com/file/d/1CEBJCPZzi76wkImKP8I0k9Rcdlk9CZj4/view?usp=sharing"
          target='_blank'
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
