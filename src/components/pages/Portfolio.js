@@ -9,6 +9,7 @@ export default function Portfolio() {
       Repo: "https://github.com/AlexWatabe9/DailyDistractions",
       deployed: 'https://alexwatabe9.github.io/DailyDistractions/',
       src: "./public/project1.png",
+      backgroundColor: '#e5446dff',
     },
     {
       id: 2,
@@ -17,6 +18,7 @@ export default function Portfolio() {
       Repo: "",
       deployed: '',
       src: '',
+      backgroundColor: '#dee2ffff',
     },
     {
       id: 3,
@@ -25,6 +27,7 @@ export default function Portfolio() {
       Repo: "",
       deployed: '',
       src: '',
+      backgroundColor: '#82aba1ff',
     },
     {
       id: 4,
@@ -33,6 +36,7 @@ export default function Portfolio() {
       Repo: "https://github.com/kpetrosky/web-apis-challenge-code-quiz",
       deployed: 'https://kpetrosky.github.io/web-apis-challenge-code-quiz/',
       src: '',
+      backgroundColor: '#ff9474ff',
     },
     {
       id: 5,
@@ -41,6 +45,16 @@ export default function Portfolio() {
       Repo: "",
       deployed: '',
       src: '',
+      backgroundColor: '#e8aeb7ff',
+    },
+    {
+      id: 6,
+      name: "Milk",
+      description: true,
+      Repo: "",
+      deployed: '',
+      src: '',
+      backgroundColor: '#cbc0d3ff',
     },
   ];
 
@@ -53,7 +67,7 @@ export default function Portfolio() {
       <div className='row'>
         {projects.map(project => (
           <div className='col-md-4 col-sm-12' key={project.id}>
-            <div className="card">
+            <div className="card" style={{ backgroundColor: project.backgroundColor }}>
               {/* Render project details */}
               <img src="..." className="card-img-top" alt="..." />
               <div className="card-body">

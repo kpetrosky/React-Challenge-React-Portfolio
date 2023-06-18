@@ -20,41 +20,40 @@
   --ice-blue: #a9fff7ff;
   --light-green: #94fbabff;
   --cambridge-blue: #82aba1ff;
+  --xanthous: #ffc15eff;
+--earth-yellow: #f7b05bff;
+--sandy-brown: #f7934cff;
+--tawny: #cc5803ff;
+--licorice: #1f1300ff;
 }
 
-main {
+/* main {
   height: 100vh;
   background-color:#b8e1ffff;
-}
+} */
 
-container {
+/* container {
   background-color: #ff9474ff;
   padding: 20px;
-}
+} */
 
-title {
+/* title {
   font-size: 24px;
   color: #e5446dff;
   background-color: #1b1b3aff;
-}
+} */
 
-h1 {
+/* h1 {
   font-size: 16px;
   color: #82aba1ff;
-}
-
+} */
+/* 
 div {
   background-color: #e8aeb7ff;
-}
+} */
 
-header {
-  color: #e5446dff;
-}
 
 footer {
   color: #693668ff;
 }
 
-home-container{
-  color: #693668ff;
-}
