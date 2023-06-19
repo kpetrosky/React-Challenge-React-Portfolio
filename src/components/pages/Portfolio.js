@@ -19,7 +19,7 @@ export default function Portfolio() {
       description: true,
       Repo: "https://github.com/kpetrosky/SQL-Challenge-Employee-Tracker",
       deployed: 'https://watch.screencastify.com/v/m3nkzd9RcgqnyzR2tkQx',
-      src: '',
+      src: 'https://watch.screencastify.com/v/m3nkzd9RcgqnyzR2tkQx',
       backgroundColor: '#dee2ffff',
     },
     {
@@ -46,7 +46,7 @@ export default function Portfolio() {
       description: true,
       Repo: "https://github.com/kpetrosky/Express.js-Challenge-Note-Taker",
       deployed: 'https://dashboard.heroku.com/apps/frozen-headland-23136',
-      src: '',
+      src: 'https://watch.screencastify.com/v/jNhmT7hmtbj32qwY8cm4',
       backgroundColor: '#e8aeb7ff',
     },
     {
