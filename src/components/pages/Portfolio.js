@@ -2,7 +2,7 @@ import React from 'react';
 
 import project1 from '../../images/project1.png';
 import apiQuiz from '../../images/apiQuiz.png';
-import mod5 from '../../images/mod 5.png';
+
 import mvc from '../../images/mvc.png';
 import express from '../../images/express.png'
 import sql from '../../images/sql.png'
