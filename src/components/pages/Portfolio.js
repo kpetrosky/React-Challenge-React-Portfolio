@@ -1,7 +1,10 @@
 import React from 'react';
 
-import project1 from '../../project1.png';
-
+import project1 from '../../images/project1.png';
+import apiQuiz from '../../images/apiQuiz.png';
+import mod5 from '../../images/mod 5.png';
+import mvc from '../../images/mvc.png';
+import express from '../../images/express.png'
 export default function Portfolio() {
   const projects = [
     {
@@ -37,7 +40,7 @@ export default function Portfolio() {
       description: true,
       Repo: "https://github.com/kpetrosky/web-apis-challenge-code-quiz",
       deployed: 'https://kpetrosky.github.io/web-apis-challenge-code-quiz/',
-      src: '',
+      src: apiQuiz,
       backgroundColor: '#ff9474ff',
     },
     {
@@ -46,7 +49,7 @@ export default function Portfolio() {
       description: true,
       Repo: "https://github.com/kpetrosky/Express.js-Challenge-Note-Taker",
       deployed: 'https://dashboard.heroku.com/apps/frozen-headland-23136',
-      src: 'https://watch.screencastify.com/v/jNhmT7hmtbj32qwY8cm4',
+      src: express,
       backgroundColor: '#e8aeb7ff',
     },
     {
@@ -57,6 +60,15 @@ export default function Portfolio() {
       deployed: 'https://dashboard.heroku.com/apps/lit-sands-84115/',
       src: '',
       backgroundColor: '#cbc0d3ff',
+    },
+    {
+      id: 7,
+      name: "Full stack MVC with handlebars, express, SQL",
+      description: true,
+      Repo: "https://github.com/kpetrosky/MVC-Model-View-Controller-MVC-Challenge-Tech-Blog",
+      deployed: 'https://frozen-lake-62666.herokuapp.com/',
+      src: mvc ,
+      backgroundColor: '#a74482ff',
     },
   ];
 
@@ -75,7 +87,8 @@ export default function Portfolio() {
               <div className="card-body">
                 <h5 className="card-title">{project.name}</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Click for more information</a>
+                <a href={project.Repo} target='_blank' className="btn btn-primary me-3">Github Repo</a>
+                <a href={project.deployed} target='_blank' className="btn btn-primary">Deployed Appliction</a>
               </div>
             </div>
           </div>
