@@ -25,6 +25,9 @@
 --sandy-brown: #f7934cff;
 --tawny: #cc5803ff;
 --licorice: #1f1300ff;
+--blue-munsell: #1b9aaaff;
+--bone: #dddbcbff;
+--old-lace: #f5f1e3ff;
 }
 
 /* background.css */
@@ -85,4 +88,6 @@ footer {
 .center-page-title{
   text-align: center;
   font-size: 75px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #cc5803ff;
 }
