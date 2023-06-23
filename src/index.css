@@ -52,10 +52,10 @@ container {
   background-color: #1b1b3aff;
 } */
 
-/* h1 {
-  font-size: 16px;
+h1 {
+  font-size: 45px;
   color: #82aba1ff;
-} */
+}
 /* 
 div {
   background-color: #e8aeb7ff;
@@ -69,9 +69,20 @@ footer {
   font-size: medium;
 }
 
-.title {
-  width: 300px;
-  border: 15px solid green;
+/* h1 {
+  width: 100px;
+  /* border: 2px solid; */
+  /* padding: 25px;
+  margin: 20px;
+ } */ 
+/* .title{
+  width: 300;
+  border:15px #a9fff7ff;
   padding: 50px;
   margin: 20px;
+} */
+
+.center-page-title{
+  text-align: center;
+  font-size: 75px;
 }

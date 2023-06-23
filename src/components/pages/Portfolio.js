@@ -69,7 +69,7 @@ export default function Portfolio() {
 
   return (
     <div>
-      <h1>Portfolio Page</h1>
+      <h1 className="text-center">Portfolio Page</h1>
       <p>
         {/* Rest of the content */}
       </p>

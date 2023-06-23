@@ -6,7 +6,7 @@ export default function Contact() {
     <main className='container contact-container'>
       <div className='row'>
         <div className='col-sm-12'>
-          <h1>Contact Page</h1>
+          <h1 className="text-center">Contact Page</h1>
           <form className='needs-validation'>
             <div className="form-group">
               <label for="exampleInputEmail1">Email address</label>

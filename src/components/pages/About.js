@@ -13,7 +13,7 @@ export default function About() {
   return (
     <Container>
       <div style={divStyle}>
-        <h1>About me</h1>
+        <h1 className="text-center">About me</h1>
         <p>
           Hello, I’m Krystal Petrosky, a passionate Full Stack engineer with a love for creating engaging and robust applications. While I am relatively new to the Full Stack community, I have developed a strong foundation in various technologies such as React, SQL, MERN, HTML/CSS, JavaScript, Node.js, ORM, MVC, and many others. I thrive on challenges and enjoy finding innovative solutions to complex problems.
         </p>

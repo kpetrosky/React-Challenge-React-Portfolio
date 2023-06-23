@@ -1,5 +1,5 @@
 import React from "react";
-import footerImage from './images/background/C6PDLuwVUAEJkh8.jpg';
+import footerImage from './images/background/jon6_GIF.gif';
 
 export default function Footer() {
   const handleBackToTop = () => {
