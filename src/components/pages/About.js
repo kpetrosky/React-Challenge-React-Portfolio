@@ -5,8 +5,9 @@ import backgroundImage1 from '../../images/background/background.jpg'
 export default function About() {
   const divStyle = {
     color: 'black',
-    backgroundColor: '#e5446dff',
+    backgroundColor: '#8d6a9fff',
     padding: '20px',
+    fontSize: '20px'
     // backgroundImage: `url(${backgroundImage1})`
   };
 

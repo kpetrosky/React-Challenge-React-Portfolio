@@ -4,7 +4,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Footer from '../Footer';
-import backgroundImage9 from '../images/background/background9.jpg';
+import backgroundImage9 from '../images/background/5037711.jpg';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -13,9 +13,6 @@ export default function PortfolioContainer() {
     backgroundColor: '#e5446dff',
     padding: '20px',
     backgroundImage: `url(${backgroundImage9})`,
-    border: '5px',
-    borderColor: 'black',
-    // fontSize: '75px'
   };
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
@@ -46,4 +43,3 @@ export default function PortfolioContainer() {
     </div>
   );
 }
-
