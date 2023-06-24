@@ -13,21 +13,23 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      name: "Daily Distractions",
-      description: true,
-      Repo: "https://github.com/AlexWatabe9/DailyDistractions",
+      name: 'Daily Distractions',
+      description: 'The SQL Challenge: Employee Tracker is a command-line application designed to help business owners efficiently manage their company\'s employee database. Built using Node.js, Inquirer, and MySQL, this application provides an intuitive interface for viewing and organizing departments, roles, and employees within the company. As a business owner, you can easily navigate through various options to perform essential tasks such as viewing all departments, roles, and employees, adding new departments, roles, and employees, as well as updating employee roles. This empowers you to effectively organize and plan your business operations.',
+      repo: 'https://github.com/AlexWatabe9/DailyDistractions',
       deployed: 'https://alexwatabe9.github.io/DailyDistractions/',
       src: project1,
       backgroundColor: '#e5446dff',
+      toolsUsed: 'Node.js: JavaScript runtime used for executing the application. Inquirer: A command-line interface package for prompting user input and generating interactive prompts. MySQL: A popular relational database management system used for storing and managing the employee data. npm: The package manager for Node.js, used to install the necessary dependencies, such as Inquirer.'
     },
     {
       id: 2,
-      name: "SQL Challenge Employee Tracker",
-      description: true,
-      Repo: "https://github.com/kpetrosky/SQL-Challenge-Employee-Tracker",
+      name: 'SQL Challenge Employee Tracker',
+      description: 'true',
+      repo: 'https://github.com/kpetrosky/SQL-Challenge-Employee-Tracker',
       deployed: 'https://watch.screencastify.com/v/m3nkzd9RcgqnyzR2tkQx',
       src: sql,
       backgroundColor: '#dee2ffff',
+      toolsUsed: 'Node.js: JavaScript runtime used for executing the application. Inquirer: A command-line interface package for prompting user input and generating interactive prompts. MySQL: A popular relational database management system used for storing and managing the employee data. npm: The package manager for Node.js, used to install the necessary dependencies, such as Inquirer.'
     },
     {
       id: 3,
