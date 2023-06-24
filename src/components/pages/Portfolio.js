@@ -25,15 +25,12 @@ export default function Portfolio() {
       id: 2,
       name: 'SQL Challenge Employee Tracker',
       description: 'The SQL Challenge: Employee Tracker is a command-line application designed to help business owners efficiently manage their company\'s employee database. Built using Node.js, Inquirer, and MySQL, this application provides an intuitive interface for viewing and organizing departments, roles, and employees within the company.\n\nAs a business owner, you can easily navigate through various options to perform essential tasks such as viewing all departments, roles, and employees, adding new departments, roles, and employees, updating employee roles, and deleting employees. This Employee Tracker is an indispensable tool for managing and organizing your company\'s workforce.\n\nThe SQL Challenge: Employee Tracker is built using modern JavaScript technologies and follows best practices for code structure and organization. It incorporates command-line interfaces (CLIs) to provide an efficient and user-friendly experience. With the SQL Challenge: Employee Tracker, you can ensure your employee database remains up to date and accessible, saving time and resources for your business.',
-      repo: 'https://github.com/AlexWatabe9/SQL-Challenge-Employee-Tracker',
-      deployed: '',
       src: apiQuiz,
-      backgroundColor: '#21b1d1ff',
-      toolsUsed: 'Node.js,  Inquirer MySQL, Command-line Interface (CLI)',
       repo: 'https://github.com/kpetrosky/SQL-Challenge-Employee-Tracker',
       deployed: 'https://watch.screencastify.com/v/m3nkzd9RcgqnyzR2tkQx',
       src: sql,
-      backgroundColor: '#dee2ffff'
+      backgroundColor: '#dee2ffff',
+      toolsUsed: 'Node.js,  Inquirer MySQL, Command-line Interface (CLI)',
     },
     {
       id: 3,
@@ -58,7 +55,7 @@ export default function Portfolio() {
     {
       id: 5,
       name: "Progressive-Web-Applications-PWA-Challenge-Text-Editor",
-      description: 'Your challenge is to create a Note Taker application that allows users to write and save notes. The application\'s front end has already been developed, and your task is to build the back end using Express.js. You will also need to connect the front end and back end, and finally deploy the entire application to Heroku. The Note Taker application targets small business owners, providing them with a convenient way to write and save notes. This feature enables users to organize their thoughts and keep track of tasks they need to complete.',
+      description: 'Create a Note Taker application that allows users to write and save notes. The application\'s front end has already been developed, and your task is to build the back end using Express.js. You will also need to connect the front end and back end, and finally deploy the entire application to Heroku. The Note Taker application targets small business owners, providing them with a convenient way to write and save notes. This feature enables users to organize their thoughts and keep track of tasks they need to complete.',
       Repo: "https://github.com/kpetrosky/Progressive-Web-Applications-PWA-Challenge-Text-Editor",
       deployed: 'https://dashboard.heroku.com/apps/lit-sands-84115/',
       src: pwa,
@@ -73,7 +70,7 @@ export default function Portfolio() {
       deployed: 'https://frozen-lake-62666.herokuapp.com/',
       src: mvc,
       backgroundColor: '#a74482ff',
-      toolsUsed: 'Tools: Express.js, APIs, Handlebars.js, Sequelize, Heroku.',
+      toolsUsed: 'Express.js, APIs, Handlebars.js, Sequelize, Heroku.',
     },
   ];
 
