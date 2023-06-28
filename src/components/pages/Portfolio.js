@@ -7,6 +7,7 @@ import mvc from '../../images/mvc.png';
 import express from '../../images/express.png'
 import sql from '../../images/sql.png'
 import pwa from '../../images/pwa.png'
+import dashboard from '../../images/weather dashboard.png'
 
 
 export default function Portfolio() {
@@ -19,23 +20,12 @@ export default function Portfolio() {
       deployed: 'https://alexwatabe9.github.io/DailyDistractions/',
       src: project1,
       backgroundColor: '#e5446dff',
-      toolsUsed: ''
+      toolsUsed: 'HTML, CSS, JavaScript, Git, GitHub, APIs'
     },
-    // {
-    //   id: 2,
-    //   name: 'SQL Employee Tracker',
-    //   description: 'The SQL application: Employee Tracker is a command-line application designed to help business owners efficiently manage their company\'s employee database. Built using Node.js, Inquirer, and MySQL, this application provides an intuitive interface for viewing and organizing departments, roles, and employees within the company.\n\nAs a business owner, you can easily navigate through various options to perform essential tasks such as viewing all departments, roles, and employees, adding new departments, roles, and employees, updating employee roles, and deleting employees. This Employee Tracker is an indispensable tool for managing and organizing your company\'s workforce.\n\nThe SQL application: Employee Tracker is built using modern JavaScript technologies and follows best practices for code structure and organization. It incorporates command-line interfaces (CLIs) to provide an efficient and user-friendly experience. With the SQL application: Employee Tracker, you can ensure your employee database remains up to date and accessible, saving time and resources for your business.',
-    //   src: apiQuiz,
-    //   repo: 'https://github.com/kpetrosky/SQL-application-Employee-Tracker',
-    //   deployed: 'https://watch.screencastify.com/v/m3nkzd9RcgqnyzR2tkQx',
-    //   src: sql,
-    //   backgroundColor: '#dee2ffff',
-    //   toolsUsed: 'Node.js,  Inquirer MySQL, Command-line Interface (CLI)',
-    // },
     {
       id: 2,
       name: "Web APIs Code Quiz",
-      description: '•	Code Quiz is an interactive web application designed to test and assess your knowledge of JavaScript fundamentals. This coding quiz simulates a typical coding assessment that you may encounter during a job interview or as part of a coding boot camp curriculum. The objective of the quiz is to gauge your progress in JavaScript and compare it to your peers. Upon accessing the quiz, you will be presented with a user-friendly interface that is clean, polished, and responsive. The quiz will begin when you click the start button, triggering a timer that will track the duration of the quiz. As soon as the quiz starts, the first question will be displayed.',
+      description: 'Code Quiz is an interactive web application designed to test and assess your knowledge of JavaScript fundamentals. This coding quiz simulates a typical coding assessment that you may encounter during a job interview or as part of a coding boot camp curriculum. The objective of the quiz is to gauge your progress in JavaScript and compare it to your peers. Upon accessing the quiz, you will be presented with a user-friendly interface that is clean, polished, and responsive. The quiz will begin when you click the start button, triggering a timer that will track the duration of the quiz. As soon as the quiz starts, the first question will be displayed.',
       Repo: "https://github.com/kpetrosky/web-apis-application-code-quiz",
       deployed: 'https://kpetrosky.github.io/web-apis-challenge-code-quiz/ ',
       src: apiQuiz,
@@ -43,11 +33,31 @@ export default function Portfolio() {
       toolsUsed: 'Tools: Express.js, Node.js, JavaScript, JSON, Heroku'
     },
     {
+      id: 3,
+      name: "The Weekly Weather Dashboard",
+      description: 'Introducing a versatile app designed to provide users with comprehensive weather information for any city they input. This innovative application ensures that regardless of the chosen location, users receive a week\'s worth of detailed weather forecasts. With just a few taps, users can access essential weather data, including temperature, real-feel temperature, humidity levels, and wind conditions. But that\'s not all! This app goes beyond providing instant weather updates. It features a unique tracking system that records the cities users have previously searched for. By storing this information, users can conveniently refer back to past locations and access their respective weather forecasts at any time. Whether you\'re planning a trip, organizing outdoor activities, or simply curious about the weather, this app offers a user-friendly experience, allowing you to stay informed and make well-informed decisions based on accurate weather predictions. Stay prepared, wherever you are, with this all-inclusive weather companion.',
+      Repo: "https://github.com/kpetrosky/weekly-weather-dashboard",
+      deployed: 'https://kpetrosky.github.io/weekly-weather-dashboard/',
+      src: dashboard,
+      backgroundColor: '#ff9474ff',
+      toolsUsed: 'HTML, CSS, JavaScript, Open Weather Map API, JSON'
+    },
+    {
+      id: 4,
+      name: 'Mern',
+      description: '',
+      Repo: '',
+      deployed: '',
+      src: '',
+      backgroundColor: '#f5f1e3ff',
+      toolsUsed: '',
+    },
+    {
       id: 5,
       name: "Progressive-Web-Applications-PWA-Text-Editor",
-      description: '',
+      description: 'Introducing our cutting-edge text editor web application! Designed to enhance your coding experience, this feature-rich editor provides a seamless environment for writing and managing your code. Let\'s dive into its impressive capabilities. Upon opening the application in your editor, you\'ll immediately notice its intuitive client-server folder structure. This organization allows for efficient development and easy navigation of your project.To start up the application, simply run npm run start from the root directory. In an instant, the backend will be up and running, serving the client-side of your application.Thanks to the power of webpack, your JavaScript files are bundled together seamlessly, ensuring optimal performance and efficient loading times. Additionally, by running your webpack plugins, you\'ll automatically generate essential files such as an HTML file, service worker, and manifest file. These additions enhance the functionality and accessibility of your application.',
       Repo: "https://github.com/kpetrosky/Progressive-Web-Applications-PWA-application-Text-Editor",
-      deployed: 'https://dashboard.heroku.com/apps/lit-sands-84115/',
+      deployed: 'https://lit-sands-84115.herokuapp.com/',
       src: pwa,
       backgroundColor: '#cbc0d3ff',
       toolsUsed: 'Tools: Express.js, Node.js, JavaScript, JSON (JavaScript Object Notation)'

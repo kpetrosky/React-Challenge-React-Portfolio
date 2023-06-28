@@ -7,7 +7,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="row sticky-bottom">
+    <footer className="row">
       <div className="col-sm-12 text-center">
         <img
           src={footerImage}
