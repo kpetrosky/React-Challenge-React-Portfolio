@@ -4,9 +4,10 @@ import project1 from '../../images/project1.png';
 import apiQuiz from '../../images/apiQuiz.png';
 
 import mvc from '../../images/mvc.png';
-import express from '../../images/express.png'
-import sql from '../../images/sql.png'
+// import express from '../../images/express.png'
+// import sql from '../../images/sql.png'
 import pwa from '../../images/pwa.png'
+import dashboard from '../../images/weather dashboard.png'
 
 
 export default function Portfolio() {
@@ -24,7 +25,7 @@ export default function Portfolio() {
     {
       id: 2,
       name: "Web APIs Code Quiz",
-      description: '•	Code Quiz is an interactive web application designed to test and assess your knowledge of JavaScript fundamentals. This coding quiz simulates a typical coding assessment that you may encounter during a job interview or as part of a coding boot camp curriculum. The objective of the quiz is to gauge your progress in JavaScript and compare it to your peers. Upon accessing the quiz, you will be presented with a user-friendly interface that is clean, polished, and responsive. The quiz will begin when you click the start button, triggering a timer that will track the duration of the quiz. As soon as the quiz starts, the first question will be displayed.',
+      description: 'Code Quiz is an interactive web application designed to test and assess your knowledge of JavaScript fundamentals. This coding quiz simulates a typical coding assessment that you may encounter during a job interview or as part of a coding boot camp curriculum. The objective of the quiz is to gauge your progress in JavaScript and compare it to your peers. Upon accessing the quiz, you will be presented with a user-friendly interface that is clean, polished, and responsive. The quiz will begin when you click the start button, triggering a timer that will track the duration of the quiz. As soon as the quiz starts, the first question will be displayed.',
       Repo: "https://github.com/kpetrosky/web-apis-application-code-quiz",
       deployed: 'https://kpetrosky.github.io/web-apis-challenge-code-quiz/ ',
       src: apiQuiz,
@@ -33,30 +34,30 @@ export default function Portfolio() {
     },
     {
       id: 3,
-      name: "Weekly Weather Dashboard",
-      description: '',
+      name: "The Weekly Weather Dashboard",
+      description: 'Introducing a versatile app designed to provide users with comprehensive weather information for any city they input. This innovative application ensures that regardless of the chosen location, users receive a week\'s worth of detailed weather forecasts. With just a few taps, users can access essential weather data, including temperature, real-feel temperature, humidity levels, and wind conditions. But that\'s not all! This app goes beyond providing instant weather updates. It features a unique tracking system that records the cities users have previously searched for. By storing this information, users can conveniently refer back to past locations and access their respective weather forecasts at any time. Whether you\'re planning a trip, organizing outdoor activities, or simply curious about the weather, this app offers a user-friendly experience, allowing you to stay informed and make well-informed decisions based on accurate weather predictions. Stay prepared, wherever you are, with this all-inclusive weather companion.',
       Repo: "https://github.com/kpetrosky/weekly-weather-dashboard",
       deployed: 'https://kpetrosky.github.io/weekly-weather-dashboard/',
-      src: apiQuiz,
+      src: dashboard,
       backgroundColor: '#ff9474ff',
-      toolsUsed: ''
+      toolsUsed: 'HTML, CSS, JavaScript, Open Weather Map API, JSON'
     },
     {
       id: 4,
-      name: "Mern",
+      name: 'Mern',
       description: '',
-      Repo: "",
-      deployed: ' ',
-      src: apiQuiz,
-      backgroundColor: '#ff9474ff',
-      toolsUsed: ''
+      Repo: '',
+      deployed: '',
+      src: '',
+      backgroundColor: '#f5f1e3ff',
+      toolsUsed: '',
     },
     {
       id: 5,
       name: "Progressive-Web-Applications-PWA-Text-Editor",
-      description: ' The task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. It will several data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline',
+      description: 'Introducing our cutting-edge text editor web application! Designed to enhance your coding experience, this feature-rich editor provides a seamless environment for writing and managing your code. Let\'s dive into its impressive capabilities. Upon opening the application in your editor, you\'ll immediately notice its intuitive client-server folder structure. This organization allows for efficient development and easy navigation of your project.To start up the application, simply run npm run start from the root directory. In an instant, the backend will be up and running, serving the client-side of your application.Thanks to the power of webpack, your JavaScript files are bundled together seamlessly, ensuring optimal performance and efficient loading times. Additionally, by running your webpack plugins, you\'ll automatically generate essential files such as an HTML file, service worker, and manifest file. These additions enhance the functionality and accessibility of your application.',
       Repo: "https://github.com/kpetrosky/Progressive-Web-Applications-PWA-application-Text-Editor",
-      deployed: 'https://dashboard.heroku.com/apps/lit-sands-84115/',
+      deployed: 'https://lit-sands-84115.herokuapp.com/',
       src: pwa,
       backgroundColor: '#cbc0d3ff',
       toolsUsed: 'Tools: Express.js, Node.js, JavaScript, JSON (JavaScript Object Notation)'
