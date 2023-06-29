@@ -19,12 +19,12 @@ export default function Portfolio() {
       deployed: 'https://alexwatabe9.github.io/DailyDistractions/',
       src: project1,
       backgroundColor: '#e5446dff',
-      toolsUsed: 'HTML, CSS, JavaScript, Git, GitHub, APIs'
+      toolsUsed: ''
     },
     {
       id: 2,
       name: "Web APIs Code Quiz",
-      description: '•	Code Quiz is an interactive web application designed to test and assess your knowledge of JavaScript fundamentals. This coding quiz simulates a typical coding assessment that you may encounter during a job interview or as part of a coding boot camp curriculum. The objective of the quiz is to gauge your progress in JavaScript and compare it to your peers. Upon accessing the quiz, you will be presented with a user-friendly interface that is clean, polished, and responsive. The quiz will begin when you click the start button, triggering a timer that will track the duration of the quiz. As soon as the quiz starts, the first question will be displayed.',
+      description: 'Code Quiz is an interactive web application designed to test and assess your knowledge of JavaScript fundamentals. This coding quiz simulates a typical coding assessment that you may encounter during a job interview or as part of a coding boot camp curriculum. The objective of the quiz is to gauge your progress in JavaScript and compare it to your peers. Upon accessing the quiz, you will be presented with a user-friendly interface that is clean, polished, and responsive. The quiz will begin when you click the start button, triggering a timer that will track the duration of the quiz. As soon as the quiz starts, the first question will be displayed.',
       Repo: "https://github.com/kpetrosky/web-apis-application-code-quiz",
       deployed: 'https://kpetrosky.github.io/web-apis-challenge-code-quiz/ ',
       src: apiQuiz,
@@ -33,40 +33,20 @@ export default function Portfolio() {
     },
     {
       id: 3,
-      name: "Weekly Weather Dashboard",
-      description: '',
-      Repo: "https://github.com/kpetrosky/weekly-weather-dashboard",
-      deployed: 'https://kpetrosky.github.io/weekly-weather-dashboard/',
-      src: apiQuiz,
-      backgroundColor: '#ff9474ff',
-      toolsUsed: ''
-    },
-    {
-      id: 4,
-      name: "Mern",
-      description: '',
-      Repo: "",
-      deployed: ' ',
-      src: apiQuiz,
-      backgroundColor: '#ff9474ff',
-      toolsUsed: ''
-    },
-    {
-      id: 5,
       name: "Progressive-Web-Applications-PWA-Text-Editor",
-      description: ' The task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. It will several data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline',
+      description: 'Launching the text editor application from the terminal triggers the bundling of JavaScript files using webpack. The webpack plugins generate an HTML file, service worker, and manifest file, enhancing the functionality and accessibility of the application. Even when utilizing next-gen JavaScript features in your application, you discover that the text editor functions seamlessly in the browser without encountering any errors. This ensures a smooth user experience and compatibility across different environments.',
       Repo: "https://github.com/kpetrosky/Progressive-Web-Applications-PWA-application-Text-Editor",
-      deployed: 'https://dashboard.heroku.com/apps/lit-sands-84115/',
+      deployed: 'https://lit-sands-84115.herokuapp.com/',
       src: pwa,
       backgroundColor: '#cbc0d3ff',
       toolsUsed: 'Tools: Express.js, Node.js, JavaScript, JSON (JavaScript Object Notation)'
     },
     {
-      id: 6,
+      id: 4,
       name: 'Full stack MVC with handlebars, express, SQL',
       description: 'In the world of technology, writing about tech concepts, advancements, and new technologies is just as crucial as creating them. Developers often spend time reading and writing technical articles and tutorials to share their expertise and insights. This week\'s application is to build a CMS-style blog site, similar to WordPress, specifically designed for developers to publish their blog posts and engage in discussions by commenting on other developers\' posts. You will create this site from scratch and deploy it to Heroku. The application will follow the MVC (Model-View-Controller) architectural pattern, utilizing Handlebars.js as the templating language, Sequelize as the ORM (Object-Relational Mapping) tool, and the express-session npm package for authentication.',
       repo: 'https://github.com/kpetrosky/MVC-Model-View-Controller-MVC-application-Tech-Blog',
-      deployed: 'https://salty-retreat-66567-6f83efb5ca5c.herokuapp.com/',
+      deployed: 'https://frozen-lake-62666.herokuapp.com/',
       src: mvc,
       backgroundColor: '#a74482ff',
       toolsUsed: 'Express.js, APIs, Handlebars.js, Sequelize, Heroku.',
