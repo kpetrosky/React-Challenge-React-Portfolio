@@ -9,7 +9,7 @@ import backgroundImage9 from '../images/background/5037711.jpg';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
   const divStyle = {
-    color: '#1b9aaaff',
+    color: '#1f1300ff',
     backgroundColor: '#e5446dff',
     padding: '20px',
     backgroundImage: `url(${backgroundImage9})`,
