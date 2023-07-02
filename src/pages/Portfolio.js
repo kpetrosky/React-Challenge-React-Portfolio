@@ -51,6 +51,16 @@ export default function Portfolio() {
       backgroundColor: '#a74482ff',
       toolsUsed: 'Express.js, APIs, Handlebars.js, Sequelize, Heroku.',
     },
+    {
+      id: 5,
+      name: 'Chained Wolfe MetalCrafts',
+      description: 'I made this website for my Husband\'s small business. He is trying to get off the ground so I wanted to help him get started. it was important for me to make his website. It is a place where he will be able to show of previous made things and get orders for new things. It is the way of the future.',
+      repo: 'https://github.com/kpetrosky/MVC-Model-View-Controller-MVC-application-Tech-Blog',
+      deployed: 'https://frozen-lake-62666.herokuapp.com/',
+      src: mvc,
+      backgroundColor: '#cbc0d3ff',
+      toolsUsed: 'Express.js, React, Sequelize, Heroku.',
+    },
   ];
 
   return (
