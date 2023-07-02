@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import backgroundImage1 from '../../images/background/background.jpg'
+
 
 export default function About() {
   const divStyle = {
