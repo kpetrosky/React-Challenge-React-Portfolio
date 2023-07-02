@@ -39,7 +39,12 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
-
+    ![Image Description](./images/about.png) 
+![Image Description](./images/about.png)
+![Image Description](./images/contact.png)
+![Image Description](./images/portfolio1.png)
+![Image Description](./images/portfolio2.png)
+![Image Description](./images/resume.png)
 
 
 ## Links
