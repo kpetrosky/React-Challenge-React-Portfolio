@@ -8,6 +8,7 @@ import mvc from '../../images/mvc.png';
 // import sql from '../../images/sql.png'
 import pwa from '../../images/pwa.png'
 import dashboard from '../../images/weather dashboard.png'
+import wolf from "../../images/Screenshot 2023-07-02 110820.png"
 
 
 export default function Portfolio() {
@@ -44,13 +45,13 @@ export default function Portfolio() {
     },
     {
       id: 4,
-      name: 'Mern',
-      description: '',
-      Repo: '',
-      deployed: '',
-      src: '',
+      name: 'Chained Wolfe MetalCrafts',
+      description: 'Welcome to our website, crafted exclusively for my husband\'s burgeoning jewelry business! Although still a work in progress, we are thrilled to present an interactive platform that allows you, as a valued customer, to effortlessly explore our dazzling collection. With just a few clicks, you can explore various categories, admire exquisite pieces, and even make a purchase right here. We understand the importance of connecting with our customers, which is why we have provided an easy way for you to reach out to the talented creator behind these beautiful creations. Whether you have specific questions, require personalized recommendations, or simply wish to share your thoughts, we encourage you to get in touch. Your satisfaction is our top priority, and we are committed to providing exceptional service every step of the way.Stay tuned as we continue to refine and enhance your browsing experience. We look forward to helping you discover the perfect piece of jewelry that reflects your unique style and personality. Thank you for your support, and we can\'t wait to embark on this exciting journey with you..',
+      Repo: 'https://github.com/kpetrosky/greywolfe_metalworks',
+      deployed: 'https://rocky-citadel-21591-6033c3f47761.herokuapp.com/#Portfolio',
+      src: 'wolf',
       backgroundColor: '#f5f1e3ff',
-      toolsUsed: '',
+      toolsUsed: 'React, Heroku,',
     },
     {
       id: 5,
