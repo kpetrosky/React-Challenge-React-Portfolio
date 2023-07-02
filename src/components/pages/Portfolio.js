@@ -51,7 +51,7 @@ export default function Portfolio() {
       deployed: 'https://rocky-citadel-21591-6033c3f47761.herokuapp.com/#Portfolio',
       src: wolf,
       backgroundColor: '#f5f1e3ff',
-      toolsUsed: 'React, Heroku,',
+      toolsUsed: 'React, Heroku, HTML, CSS, Node.js',
     },
     {
       id: 5,

@@ -35,7 +35,7 @@ function Header({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="https://drive.google.com/file/d/1CEBJCPZzi76wkImKP8I0k9Rcdlk9CZj4/view?usp=sharing"
+          href="https://drive.google.com/file/d/1HvQzccnYfr0brq3yfYQ7fjuTPDduCqAc/view?usp=drive_link"
           target="_blank"
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
           style={{ fontSize: '32px' }} // Increase the font size to 24px
