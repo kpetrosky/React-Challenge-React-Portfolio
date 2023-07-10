@@ -1,19 +1,19 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-
+import resumePic from '../../images/resume2.jpg';
 
 export default function About() {
   const divStyle = {
     color: 'black',
     backgroundColor: '#8d6a9fff',
     padding: '20px',
-    fontSize: '20px'
-    // backgroundImage: `url(${backgroundImage1})`
+    fontSize: '20px',
   };
-
   return (
     <Container>
       <div style={divStyle}>
+        <div className= "row">
+          <div className='col-sm-12 col-md-7'>
         <h1 className="text-center">About me</h1>
         <p>
         ■ Hello, I’m Krystal Petrosky, a passionate Full Stack engineer with a love for creating engaging and robust applications. While I am relatively new to the Full Stack community, I have developed a strong foundation in various technologies such as React, SQL, MERN, HTML/CSS, JavaScript, Node.js, ORM, MVC, and many others. I thrive on challenges and enjoy finding innovative solutions to complex problems.
@@ -38,6 +38,12 @@ export default function About() {
         <p>
         ■ Thank you for taking the time to explore my portfolio. I am thrilled to share my projects and experiences with you. If you have any inquiries or collaboration opportunities, please feel free to reach out. Let’s create something amazing together!
         </p>
+            
+          </div>
+          <div className='col-sm-12 col-md-5'>
+          <img src={resumePic} className='img-fluid'></img>
+          </div>
+        </div>
       </div>
     </Container>
   );
